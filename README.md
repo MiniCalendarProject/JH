@@ -1,6 +1,7 @@
 # MyCalendar
-<H2> Schedule Management Activity 제작 </H2>
+<H2> 일정  Activity 제작 </H2>
 
-![calendar](https://user-images.githubusercontent.com/41147465/49124075-5bc43380-f2fe-11e8-985e-fe6363b1c201.PNG)
+![app2](https://user-images.githubusercontent.com/41147465/49204202-66f68c80-f3ee-11e8-9d21-13032af5ef87.PNG)
+
 
 
