@@ -1,5 +1,6 @@
 package com.example.jh.mycalendar;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -34,11 +35,13 @@ public class ScheduleManagementActivity extends AppCompatActivity {
            case R.id.menu1:
                Toast.makeText(getApplicationContext(), "완료 못한 일정만 보기", Toast.LENGTH_LONG).show();
                return true;
-           case R.id.menu2:
-               Toast.makeText(getApplicationContext(), "추가", Toast.LENGTH_LONG).show();
+           case R.id.menu2: // 추가 메뉴를 클릭했을 때 호출
+               Intent addition=new Intent(getApplicationContext(), ScheduleAdditionActivity.class);
+               startActivity(addition);
                return true;
-           case R.id.menu3:
-               Toast.makeText(getApplicationContext(), "삭제", Toast.LENGTH_LONG).show();
+           case R.id.menu3: // 삭제 메뉴를 클릭했을 때 호출
+               Intent deletion=new Intent(getApplicationContext(), ScheduleDeleteActivity.class);
+               startActivity(deletion);
                return true;
            case R.id.menu4:
                Toast.makeText(getApplicationContext(), "정렬", Toast.LENGTH_LONG).show();

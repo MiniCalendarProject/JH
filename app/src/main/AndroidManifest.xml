@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ScheduleManagementActivity" />
-        <activity android:name=".AdditionScheduleActivity"></activity>
+        <activity android:name=".ScheduleAdditionActivity" />
+        <activity android:name=".ScheduleDeleteActivity"></activity>
     </application>
 
 </manifest>
